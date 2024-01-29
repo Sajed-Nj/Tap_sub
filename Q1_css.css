@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+ 
+.container{
+    
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: 1.5px solid #008AAA;
+    text-align: center;
+}
+
+
+ 
+.image{
+    
+    position: absolute;
+
+    background-color: white;  
+    padding-left: 450px;
+    padding-top: 100px;
+    
+    
+    
+    
+   
+    
+}
+
+
+ 
+.image img{
+    
+    width:200px;
+    height: 200px;
+    border-radius:0px 0px 0px 80px; 
+
+    box-shadow:  -15px 5px #3BBADB  ;
+    
+        
+    
+    
+}
+
+        
+
+
+
+
+
+
+ 
+.content{
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+}
+ 
+
+
+.my{
+    position: relative;
+    
+    max-width:max-content;
+    padding-left: 50px;
+    padding-top:100px;
+    font-size: 14px;
+    color: #3BBADB; 
+}
+.hi{
+    position: relative;
+    width:fit-content;
+    
+    padding-left: 40px;
+    font-size: 40px;
+    color:#008AAA;
+    font-weight: bold;
+
+
+}
+.des{
+    color: #D1884F;
+    font-size: 40px;
+    font-weight: bold;
+}
+.see{
+    position: relative;
+    
+    width:300px;
+    height:80px;
+    padding-left: 50px;
+    padding-top:5px;
+    font-size: 12px;
+    text-align: left;
+   
+
+}
+
+
+
+.button1{
+   
+    
+    
+    height: 25px;
+    width: 100px;
+    background-color:#008AAA ;
+    color: white;
+    border-radius:5px;
+    border: 1.5px solid white;
+    box-shadow: 0px 5px 5px 0px  rgb(101, 203, 203) ;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.button2{
+    margin-left: 10px;
+    height: 25px;
+    width: 150px;
+    background-color:white ;
+    color:#008AAA ;
+    border-radius:5px;
+    border: 1.5px solid #008AAA;
+    box-shadow: 0px 5px 5px 0px  rgb(101, 203, 203) ;
+    cursor: pointer;
+    
+}
+.btn{
+    position: relative;
+    padding-right: 340px;
+}
+
+
+
+ 
+
+
+
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+ 
+
